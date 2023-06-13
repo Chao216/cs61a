@@ -15,3 +15,16 @@ def absolute(x):
         return 0
     else:
         return x
+
+def aggregate(x):
+    """sum until xth natural number"""
+    total, i = 0, 1
+    if x == 1:
+        return 1
+    else:    
+        while i < x:
+            total , i = total + i, i +1
+        return total
+    
+
+    
