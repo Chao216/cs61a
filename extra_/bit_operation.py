@@ -11,3 +11,8 @@ print(f"~ a = ; ", ~a)
 print(f"~ b = ; ", ~b)
 print(f"a >> 5 : ", a >> 5)
 print(f"b << 15 : ", b << 15)
+
+c = 17
+d = 21
+
+print(bin(c))
