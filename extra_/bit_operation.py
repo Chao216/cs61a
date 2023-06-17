@@ -16,3 +16,14 @@ c = 17
 d = 21
 
 print(bin(c))
+print(bin(d))
+
+print(f"c & d   ", bin( c & d))
+print(f"c | d   ", bin( c | d))
+print(f"c ^ d   ", bin( c ^ d))
+
+print(f"~c   ", bin(~c))
+print(f"~d   ", bin(~d))
+
+print(f" c >> 2", bin(c >> 2))
+print(f" d << 2", bin(d << 2))
