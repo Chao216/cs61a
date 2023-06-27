@@ -27,3 +27,10 @@ print(f"~d   ", bin(~d))
 
 print(f" c >> 2", bin(c >> 2))
 print(f" d << 2", bin(d << 2))
+
+long_num = 8008208820
+
+print(bin(long_num))
+print(f"long_num >> 3",bin(long_num >> 3))
+print(f"long_num << 3",bin(long_num << 3))
+
