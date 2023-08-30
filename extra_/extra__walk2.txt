@@ -1,0 +1,24 @@
+./
+['grandpa']
+['bit_operation.py', 'echo_hello.sh', 'extra__walk.txt', 'extra__walk2.txt', 'hello.ps1', 'walk.py', 'walk2.py', 'walk_result.txt']
+./grandpa
+['aunt', 'father', 'uncle']
+['layer1-1', 'layer1-2', 'layer1-3']
+./grandpa\aunt
+[]
+[]
+./grandpa\father
+['brother', 'me', 'sister']
+['layer2-1', 'layer2-2', 'layer2-3']
+./grandpa\father\brother
+[]
+[]
+./grandpa\father\me
+[]
+['layer3-2', 'layer3-3', 'layey3-1']
+./grandpa\father\sister
+[]
+[]
+./grandpa\uncle
+[]
+[]
