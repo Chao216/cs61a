@@ -9,3 +9,7 @@ print(buy_milk(1.2,3,10))
 empty = lambda : "this is a test"
 
 print(empty())
+
+# map(function, iterator)
+list1 = list(map(lambda x: x * x, [i for i in range(1,101)]))
+print(list1)
