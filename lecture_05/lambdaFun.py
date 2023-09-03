@@ -16,3 +16,11 @@ print(list1)
 
 list2 = list(map(lambda x: x **2 + 3*x -1,[i for i in range(1,101)]))
 print(list2)
+
+def square(n):
+    return n * n
+
+sq = lambda x: x*x
+
+print(square)
+print(sq)
