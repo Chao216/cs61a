@@ -13,3 +13,6 @@ print(empty())
 # map(function, iterator)
 list1 = list(map(lambda x: x * x, [i for i in range(1,101)]))
 print(list1)
+
+list2 = list(map(lambda x: x **2 + 3*x -1,[i for i in range(1,101)]))
+print(list2)

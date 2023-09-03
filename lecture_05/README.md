@@ -17,4 +17,7 @@ this is a test
 ## explanation
 `map()` takes two arguments, frist is a function, second is an iterator</br>
 `lambda x: x * x` is a lambda function, `[i for i in range(1,101)]` is a list.</br>
-`map` will return a map object, so we need `list()` to convert the map object to a list</br>
+`map` will return a map object, so we need `list()` to convert the map object to a list</br>81
+```
+[3, 9, 17, 27, 39, 53, 69, 87, 107, 129, 153, 179, 207, 237, 269, 303, 339, 377, 417, 459, 503, 549, 597, 647, 699, 753, 809, 867, 927, 989, 1053, 1119, 1187, 1257, 1329, 1403, 1479, 1557, 1637, 1719, 1803, 1889, 1977, 2067, 2159, 2253, 2349, 2447, 2547, 2649, 2753, 2859, 2967, 3077, 3189, 3303, 3419, 3537, 3657, 3779, 3903, 4029, 4157, 4287, 4419, 4553, 4689, 4827, 4967, 5109, 5253, 5399, 5547, 5697, 5849, 6003, 6159, 6317, 6477, 6639, 6803, 6969, 7137, 7307, 7479, 7653, 7829, 8007, 8187, 8369, 8553, 8739, 8927, 9117, 9309, 9503, 9699, 9897, 10097, 10299]
+```
