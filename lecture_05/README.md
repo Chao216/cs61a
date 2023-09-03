@@ -15,6 +15,6 @@ this is a test
 ```
 
 ## explanation
-`map()` takes two arguments, frist is a function, second is an iterator
-`lambda x: x * x` is a lambda function, `[i for i in range(1,101)]` is a list.
-`map` will return a map object, so we need `list()` to convert the map object to a list
+`map()` takes two arguments, frist is a function, second is an iterator</br>
+`lambda x: x * x` is a lambda function, `[i for i in range(1,101)]` is a list.</br>
+`map` will return a map object, so we need `list()` to convert the map object to a list</br>
