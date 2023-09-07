@@ -31,4 +31,9 @@ def tri(frequency, amplitude=0.3):
         return amplitude * tri_wave
     return sampler
     
-c_freq = 261.63
+c_freq, e_freq, g_freq = 261.63, 329.63, 392.00
+
+def both(f,g):
+    return lambda t: f(t) + g(t)
+
+play(both(tri(c_freq),tri(e_freq)))
