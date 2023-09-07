@@ -37,3 +37,20 @@ minus_7 = make_function(-7)
 
 ans4 = minus_7(1000)
 print(ans4)
+
+# re-cap function currying
+
+def make(a):
+	def some(b):
+		def more(c):
+			def intr(d):
+				def ths(e):
+					print(a," + ", b, " + ", c, " + ", d, " + ", e)
+					return a + b + c + d + e
+				return ths
+			return intr
+		return more
+	return some
+
+ans_curry = make(1)(2)(3)(4)(5)
+print(ans_curry)
