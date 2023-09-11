@@ -42,3 +42,7 @@ print(print(print(693)))
 
 # print() will always return None
 print(print()) # print() will change line
+
+allen = None
+betty = None
+print((allen == betty))
