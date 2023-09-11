@@ -38,3 +38,7 @@ print("first assertion passed!")
 
 print(693)
 print(print(693))
+print(print(print(693)))
+
+# print() will always return None
+print(print()) # print() will change line
