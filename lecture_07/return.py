@@ -24,6 +24,8 @@ def cube(x):
 def inverse(a_func): # pass in a function to be used later
     # we are looking for a function that do reverse job
     return lambda z: search(lambda x :a_func(x) == z)
+                     # the search function return x satisify condition
+                     # search loop until a_func(x) == z returns a TRUE 
 
 # a_func(x) == z outcome is either true or false
 # search function will loop x +1 until true is satisified
