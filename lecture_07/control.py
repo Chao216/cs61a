@@ -20,3 +20,5 @@ def eigen_sqrt(n):
 
 print(eigen_sqrt(100))
 print(eigen_sqrt(-21))
+
+# you wiill receive error because in call function, all arguments will be evaluated including sqrt(n) when n is negative, error happens
