@@ -7,8 +7,6 @@ print(print(5))
 | This expression   | evaluates to | interactive output |
 | ----------------- | ------------ | ------------------ |
 | `print(print(5))` | None         | 5<br />None        |
-|                   |              |                    |
-|                   |              |                    |
 
 ```py
 def delay(arg):
@@ -18,3 +16,14 @@ def delay(arg):
     return g
 ```
 
+```py
+delay(delay)()(10)()
+```
+
+| This expression      | evaluates to | interactive output |
+| -------------------- | ------------ | ------------------ |
+| `delay(delay)`       | delay        | delayed!<br />     |
+| delay(delay)()       | delay()      | delayed!           |
+| `delay(delay)()(10)` | delay(10)    | 10                 |
+|                      |              |                    |
+|                      |              |                    |
