@@ -10,3 +10,11 @@ print(print(5))
 |                   |              |                    |
 |                   |              |                    |
 
+```py
+def delay(arg):
+    print("delayed!")
+    def g():
+        return arg
+    return g
+```
+
