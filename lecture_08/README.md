@@ -20,10 +20,7 @@ def delay(arg):
 delay(delay)()(10)()
 ```
 
-| This expression      | evaluates to | interactive output |
-| -------------------- | ------------ | ------------------ |
-| `delay(delay)`       | delay        | delayed!<br />     |
-| delay(delay)()       | delay()      | delayed!           |
-| `delay(delay)()(10)` | delay(10)    | 10                 |
-|                      |              |                    |
-|                      |              |                    |
+| This expression        | evaluates to | interactive output |
+| ---------------------- | ------------ | ------------------ |
+| `delay(delay)()`       | delay()      | delayed!           |
+| `delay(delay)()(10)()` | delay(10)()  | delayed!           |
