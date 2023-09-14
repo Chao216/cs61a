@@ -16,11 +16,4 @@ def delay(arg):
     return g
 ```
 
-```py
-delay(delay)()(10)()
-```
-
-| This expression        | evaluates to | interactive output |
-| ---------------------- | ------------ | ------------------ |
-| `delay(delay)()`       | delay()      | delayed!           |
-| `delay(delay)()(10)()` | delay(10)()  | delayed!           |
+go check comments in **review.py** for evaluation of compound expression, as it explains better together with code

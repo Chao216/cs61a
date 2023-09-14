@@ -41,3 +41,20 @@ print(f1(f1)(2)(3)(4)(5)(6))
 
 print(f1(f1)(2)(3)(f1)(5)(6)(f1)(8)(9)(f1)(11)(12)(13)(14)(15))
 # evalues to 13 inside print
+
+print("######################")
+
+print(delay(print)()(1007))
+# delay(print)() will evaluates to print
+# then 1007 is printed out, and None is return from print function
+# finally None got printed out
+
+from operator import add, mul
+
+def square(x):
+    return mul(x,x)
+print("****************************")
+print(delay(delay)()(square)()(9))
+# you should see 81, as delay(delay)()(square)() will return square function
+# suqare(9) return mul(9,9)
+# you see 81 because of this.
