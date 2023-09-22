@@ -51,3 +51,31 @@ def f1(a):
     return f2
 
 f1(1)(2)(3)(4)(5)
+
+
+print("\n\n\n\n\n\n")
+
+def hunter(prey):
+    print(prey," is found!")
+    def wrapped(): # what parameters you want to give to prey? here is no params
+        return prey()
+    return wrapped
+
+@hunter
+def p1():
+    @hunter
+    def p2():
+        @hunter
+        def p3():
+            @hunter
+            def p4():
+                @hunter
+                def p5():
+                    print("No argument was taken for this function currying example")
+                return p5
+            return p4
+        return p3
+    return p2
+
+p1()()()()()
+# we def the curried function on purpose with no parameters!
