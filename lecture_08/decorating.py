@@ -30,8 +30,8 @@ plusfive(10)
 
 def whichfunc(a_func):
     print(a_func," is being called!")
-    def inner(arg1):
-        return a_func
+    def inner(a):
+        return a_func(a)
     return inner
 
 @whichfunc
