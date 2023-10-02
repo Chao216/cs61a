@@ -27,3 +27,9 @@ print(list2[1][1])
 
 list3 = {1:[[1,2,3],[4,5,6]]}
 print(list3[1][1][1])
+
+list5 = {x:x*x for x in range(1,11) if x%2==0}
+print(list5)
+
+for i, j in zip(list5.keys(),list5.values()):
+    print(i,"\t", j)
