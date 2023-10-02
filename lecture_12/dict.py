@@ -23,3 +23,7 @@ for i,j in zip(l1,l2):
 
 list2 = {1:["apple","grape"]}
 print(list2[1][0])
+print(list2[1][1])
+
+list3 = {1:[[1,2,3],[4,5,6]]}
+print(list3[1][1][1])
