@@ -21,3 +21,6 @@ print(all(range(1,10)))
 print(all(range(-10,10)))
 
 print(all(list1))
+
+
+print(any(list1))
