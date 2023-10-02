@@ -20,3 +20,10 @@ def new_count(list_,n):
     print("we found ", count, " ",n, " in the list")
     return count
 new_count([2,3,2,3,2,3,4,3,2,3,5,4,6,43,2],3)
+
+triples = [[1,2,3],[2,2,2],[3,4,5],[5,5,5],[8,3,2],[9,9,9]]
+count_triple=0
+for x, y, z in triples:
+    if x == y & y == z:
+        count_triple += 1
+print("we found ", count_triple)
