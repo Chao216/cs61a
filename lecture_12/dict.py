@@ -20,3 +20,6 @@ l2 = ['coffee','coke','tea']
 
 for i,j in zip(l1,l2):
     print(i," enjoys drink ", j)
+
+list2 = {1:["apple","grape"]}
+print(list2[1][0])
