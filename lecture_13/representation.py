@@ -7,4 +7,13 @@ def rational(x,y):
 
     return[x//g,y//g]
 
-print(rational(64,61440))
+# print(rational(64,61440))
+
+def numer(x):
+    return x[0]
+
+def denom(x):
+    return x[1]
+
+print(numer(rational(4,12)))
+print(denom(rational(9,3)))
