@@ -24,3 +24,10 @@ def mul_rational(x,y):
     return rational(up,lo)
 
 print(mul_rational(rational(1,3),rational(1,2)))
+
+def add_rational(x,y):
+    up = numer(x) * denom(y) + numer(y)* denom(x)
+    lo = denom(x) * denom(y)
+    return rational(up,lo)
+
+print(add_rational(rational(3,7),rational(1,14)))
