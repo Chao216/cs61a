@@ -31,3 +31,5 @@ def add_rational(x,y):
     return rational(up,lo)
 
 print(add_rational(rational(3,7),rational(1,14)))
+
+# Always Remember abstraction in computer science. 
