@@ -44,9 +44,9 @@ def div_rational(x,y):
 
 print(div_rational(rational(1,3),rational(1,6)))
 
-def eq_ratioal(x,y):
-    return rational(x) == rational(y)
+def print_rational(x):
+    up = numer(x)
+    lo = denom(x)
+    print(up,"/",lo)
 
-r1 = rational(1,3)
-r2 = rational(2,6)
-print(eq_ratioal(r1,r2))
+print_rational(rational(12,7))
