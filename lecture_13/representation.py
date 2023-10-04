@@ -33,3 +33,13 @@ def add_rational(x,y):
 print(add_rational(rational(3,7),rational(1,14)))
 
 # Always Remember abstraction in computer science. 
+
+def div_rational(x,y):
+    """
+    1/3 / 1/2 = 1/3 * 2/1
+    """
+    up = numer(x)*denom(y)
+    lo = denom(x) * numer(y)
+    return rational(up,lo)
+
+print(div_rational(rational(1,3),rational(1,6)))
