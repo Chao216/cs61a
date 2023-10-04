@@ -41,8 +41,12 @@ def count_leaf(t):
     else:
         return sum([count_leaf(b) for b in branches(t)])
 print("\n")    
-print(count_leaf(tree(1)))
+print(count_leaf(tree(1,[tree(2),tree(3)])))
 print("\n")
 print(fib_tree(10))
 
 print("\n",is_leaf(3))
+
+print(tree(1,[tree(2),tree(3)]))
+
+print([i**2 for i in range(9)])
