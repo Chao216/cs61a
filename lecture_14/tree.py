@@ -3,22 +3,22 @@ def tree(label,branches=[]):
         assert is_tree(branch)
     return [label] + list(branches)
 
-def lable(tree):
-    return tree[0]
+def lable(tree_x):
+    return tree_x[0]
 
-def branches(tree):
-    return tree[1:]
+def branches(tree_x):
+    return tree_x[1:]
 
-def is_tree(tree):
-    if type(tree) != list or len(tree) <1:
+def is_tree(tree_x):
+    if type(tree_x) != list or len(tree_x) <1:
         return False
-    for branch in branches(tree):
+    for branch in branches(tree_x):
         if not is_tree(branch):
             return False
     return True
 
-def is_leaf(tree):
-    return not branches(tree)
+def is_leaf(tree_x):
+    return not branches(tree_x)
 
 print(not True)
 print(not 1)
@@ -53,3 +53,19 @@ print([i**2 for i in range(9)])
 for i in range(11):
     print(i,'th fibonacci tree')
     print(count_leaf(fib_tree(i)))
+
+def incremenT_leaves(tree_x):
+    if is_leaf(tree_x):
+        return tree(lable(tree_x)+1)
+    else:
+        bs=[incremenT_leaves(b) for b in branches(tree_x)]
+        return tree(lable(tree_x),bs)
+    
+
+print(incremenT_leaves(tree(12)))
+print(incremenT_leaves(
+    tree(1,[
+        tree(2,[tree(3),tree(4)]),
+        tree(5,[tree(6),tree(7)])
+    ])
+))
