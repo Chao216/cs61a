@@ -69,3 +69,13 @@ print(incremenT_leaves(
         tree(5,[tree(6),tree(7)])
     ])
 ))
+
+def increment(t):
+    return tree(lable(t)+1,[increment(b) for b in branches(t)])
+
+print(increment(
+    tree(1,[
+        tree(2,[tree(3),tree(4)]),
+        tree(5,[tree(6),tree(7)])
+    ])
+))
