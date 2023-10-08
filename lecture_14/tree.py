@@ -18,7 +18,7 @@ def is_tree(tree):
     return True
 
 def is_leaf(tree):
-    return not is_tree(tree)
+    return not branches(tree)
 
 print(not True)
 print(not 1)
@@ -45,8 +45,11 @@ print(count_leaf(tree(1,[tree(2),tree(3)])))
 print("\n")
 print(fib_tree(10))
 
-print("\n",is_leaf(3))
 
 print(tree(1,[tree(2),tree(3)]))
 
 print([i**2 for i in range(9)])
+
+for i in range(11):
+    print(i,'th fibonacci tree')
+    print(count_leaf(fib_tree(i)))
