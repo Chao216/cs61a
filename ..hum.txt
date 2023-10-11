@@ -1,0 +1,205 @@
+.
+├── autopush.sh
+├── extra_
+│   ├── bit_operation.py
+│   ├── C_Programming
+│   │   ├── chapter_00
+│   │   │   ├── hello
+│   │   │   ├── hello.c
+│   │   │   └── while.c
+│   │   └── to_C_Programming.sh
+│   ├── echo_hello.sh
+│   ├── extra__walk2.txt
+│   ├── extra__walk.txt
+│   ├── foo
+│   │   ├── 831
+│   │   └── os_utils.py
+│   ├── grandpa
+│   │   ├── aunt
+│   │   ├── father
+│   │   │   ├── brother
+│   │   │   ├── layer2-1
+│   │   │   ├── layer2-2
+│   │   │   ├── layer2-3
+│   │   │   ├── me
+│   │   │   │   ├── layer3-2
+│   │   │   │   ├── layer3-3
+│   │   │   │   └── layey3-1
+│   │   │   └── sister
+│   │   ├── layer1-1
+│   │   ├── layer1-2
+│   │   ├── layer1-3
+│   │   └── uncle
+│   ├── hello.ps1
+│   ├── pdf
+│   │   ├── BSOD.pdf
+│   │   ├── No Boot fix.pdf
+│   │   ├── Registry & Dump Configuration.pdf
+│   │   ├── Windows Commands.pdf
+│   │   └── Windows Events.pdf
+│   ├── walk2.py
+│   ├── walk_dirs.py
+│   ├── walk_files.py
+│   ├── walk.py
+│   ├── walk_result.txt
+│   ├── walk_root.py
+│   └── Windows Commands.html
+├── hei.txt
+├── hw
+│   ├── hw01
+│   │   ├── construct_check.py
+│   │   ├── hw01.ok
+│   │   ├── hw01.py
+│   │   ├── ok
+│   │   ├── __pycache__
+│   │   │   └── hw01.cpython-38.pyc
+│   │   └── tests
+│   │       └── __init__.py
+│   └── hw02
+│       ├── construct_check.py
+│       ├── hw02.ok
+│       ├── hw02.py
+│       ├── ok
+│       ├── __pycache__
+│       │   └── hw02.cpython-311.pyc
+│       └── tests
+│           └── __init__.py
+├── lab
+│   ├── lab00
+│   │   ├── lab00.ok
+│   │   ├── lab00.py
+│   │   ├── ok
+│   │   ├── __pycache__
+│   │   │   └── lab00.cpython-38.pyc
+│   │   └── tests
+│   │       ├── __init__.py
+│   │       ├── __pycache__
+│   │       │   ├── __init__.cpython-38.pyc
+│   │       │   └── python-basics.cpython-38.pyc
+│   │       └── python-basics.py
+│   ├── lab01
+│   │   ├── lab01.ok
+│   │   ├── lab01.py
+│   │   ├── ok
+│   │   ├── __pycache__
+│   │   │   └── lab01.cpython-38.pyc
+│   │   └── tests
+│   │       ├── control.py
+│   │       ├── debugging-quiz.py
+│   │       ├── if-statements.py
+│   │       ├── __init__.py
+│   │       ├── __pycache__
+│   │       │   ├── control.cpython-38.pyc
+│   │       │   ├── debugging-quiz.cpython-38.pyc
+│   │       │   ├── if-statements.cpython-38.pyc
+│   │       │   ├── __init__.cpython-38.pyc
+│   │       │   └── short-circuit.cpython-38.pyc
+│   │       └── short-circuit.py
+│   ├── lab02
+│   │   ├── lab02.ok
+│   │   ├── lab02.py
+│   │   ├── ok
+│   │   ├── __pycache__
+│   │   │   └── lab02.cpython-311.pyc
+│   │   └── tests
+│   │       ├── hof-wwpd.py
+│   │       ├── __init__.py
+│   │       ├── lambda.py
+│   │       └── __pycache__
+│   │           ├── hof-wwpd.cpython-311.pyc
+│   │           ├── __init__.cpython-311.pyc
+│   │           └── lambda.cpython-311.pyc
+│   └── lab03
+│       ├── lab03.ok
+│       ├── lab03.py
+│       ├── ok
+│       ├── __pycache__
+│       │   └── lab03.cpython-311.pyc
+│       └── tests
+│           └── __init__.py
+├── lecture_01
+│   ├── 01-Computer_Science_full.pdf
+│   ├── 01.py
+│   ├── hamlet.txt
+│   └── lecture_1.md
+├── lecture_02
+│   ├── 02-Functions_full.pdf
+│   ├── expression.py
+│   ├── largest_factor.py
+│   └── print_and_None.py
+├── lecture_03
+│   ├── doctring.py
+│   ├── environment.py
+│   ├── README.md
+│   ├── run_ds_exmps.py
+│   ├── testmod_.py
+│   └── use_assert.py
+├── lecture_04
+│   ├── fibonacci.py
+│   ├── generalization.py
+│   ├── golden_ratio.py
+│   ├── high_order.py
+│   └── prime_factor.py
+├── lecture_05
+│   ├── apply_twice.py
+│   ├── composeFunc.py
+│   ├── decorator.py
+│   ├── funcCurrying.py
+│   ├── lambdaFun.py
+│   ├── make_adder.py
+│   ├── nesting.py
+│   ├── README.md
+│   └── trace_recursive.py
+├── lecture_06
+│   ├── ex01.py
+│   ├── ex.py
+│   ├── lambda_curry.py
+│   ├── __pycache__
+│   │   └── sound.cpython-311.pyc
+│   └── sound.py
+├── lecture_07
+│   ├── control.py
+│   ├── env_lambda.py
+│   ├── error_trackback.py
+│   ├── logical_op.py
+│   └── return.py
+├── lecture_08
+│   ├── decorating.py
+│   ├── evals.py
+│   ├── horse_mask.py
+│   ├── README.md
+│   ├── remove_digits.py
+│   └── review.py
+├── lecture_09
+│   ├── luhn.py
+│   ├── mutual_recursive.py
+│   ├── print_all.py
+│   ├── print_sum.py
+│   ├── sum_digits_iter.py
+│   └── sum_digits.py
+├── lecture_10
+│   ├── cascade.py
+│   ├── count_partition.py
+│   ├── fib.py
+│   ├── inverse_cascade.py
+│   └── print_after.py
+├── lecture_11
+│   ├── container.py
+│   ├── count.py
+│   ├── list_comprehension.py
+│   ├── list.py
+│   └── ranges.py
+├── lecture_12
+│   ├── aggregation.py
+│   ├── dict.py
+│   ├── index.py
+│   ├── slicing.py
+│   └── string_.py
+├── lecture_13
+│   └── representation.py
+├── lecture_14
+│   └── tree.py
+├── LICENSE
+└── README.md
+
+51 directories, 152 files
