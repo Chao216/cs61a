@@ -8,3 +8,5 @@ Note!, Continue with lab02!
 09/10/23 19:54:38
 
 I am back home to enjoy my holiday now!09/30/23 15:47:34
+
+try to code on fedora 38Wed Oct 11 09:56:17 PM CST 2023
