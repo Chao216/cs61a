@@ -10,3 +10,4 @@ Note!, Continue with lab02!
 I am back home to enjoy my holiday now!09/30/23 15:47:34
 
 try to code on fedora 38Wed Oct 11 09:56:17 PM CST 2023
+going home to attend a wedding!
