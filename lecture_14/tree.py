@@ -79,3 +79,10 @@ print(increment(
         tree(5,[tree(6),tree(7)])
     ])
 ))
+
+def print_tree(t,indent=0):
+    print(" " * indent+str(lable(t)))
+    for b in branches(t):
+        print_tree(b,indent+1)
+
+print_tree(fib_tree(7))
