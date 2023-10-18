@@ -19,3 +19,17 @@ print(linux)
 linux.append('red hat')
 
 print(linux)
+
+linux.extend(['Open SUSE', 'Arch'])
+
+# you may use extends to add mutiple items
+
+print(unixlike)
+
+linux.append('debian')
+
+print(linux)
+
+print(set(linux))
+
+# set doesn't allow duplicated items
