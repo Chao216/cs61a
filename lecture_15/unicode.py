@@ -26,10 +26,12 @@ finally:
     print("i will be executed anayway")
 
 try:
-    10/0
-except:
+    print(type(sadsaf))
+except Exception as e:
     print("exception")
+    print(e)
 else:
     print("no exception")
 finally:
     print('print from finally')
+
