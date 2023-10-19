@@ -35,3 +35,10 @@ else:
 finally:
     print('print from finally')
 
+languages = ('c','java','c++','perl') + ('javascript', 'shell') * 3
+
+print(len(languages))
+
+print(languages.index('java'))
+
+print(languages.count('javascript'))
