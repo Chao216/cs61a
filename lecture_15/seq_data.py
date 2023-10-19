@@ -33,3 +33,13 @@ print(linux)
 print(set(linux))
 
 # set doesn't allow duplicated items
+
+phones = ['apple','xiaom','huawei']
+
+print(phones[0] is 'apple')
+
+print(phones[1] == 'xiaom')
+
+print(phones is ['apple','xiaom','huawei']) # becasue object has different hash value// I guess
+
+print(phones == ['apple','xiaom','huawei'])
