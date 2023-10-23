@@ -44,3 +44,15 @@ yourage = 26
 
 print(myage == yourage)
 print(myage is yourage)
+
+# default mutable argument is dangerous
+
+def f(s=[]):
+    s.append(5)
+    print(len(s))
+
+# review of default args
+
+def print_fullname(first='Tony',last='lau'):
+    print('hello ',first,' ',last,' , how are you?')
+    
